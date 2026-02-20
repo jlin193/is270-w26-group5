@@ -10,11 +10,62 @@
 
  <div class="headertext">
     <header>
-    <h1>IS270 Group 5 Website</h1>
-    <h2>Welcome to our website!</h2>
+    <h1>IS270 GROUP 5 WEBSITE</h1>
+    <h2>HOMEPAGE!</h2>
     <h2></h2> 
     </header>
  </div>
+
+ <div class="container">
+  <button class="button">
+      <a href="index.html" style="text-decoration: none; color: #000000;">HOME</a>
+  </button>
+   <button class="button">
+      <a href="about.html" style="text-decoration: none; color: #000000;">QR ZINE</a>
+  </button>
+  <button class="button">
+      <a href="mediailike.html" style="text-decoration: none; color: #000000;">AI GUIDELINES</a>
+  </button>
+</div>
+
+<style>
+.container{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+.button{
+  display:inline-block;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: sans-serif; 
+  font-size: larger;
+  padding: 0%;
+  border: none;
+}
+</style>
+
+<style>
+a:link, a:visited {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px 30px;
+  margin: auto;
+  text-decoration-color: black;
+  text-decoration:underline;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover, a:active {
+  background-color: rgb(198, 198, 198);
+}
+</style>
 
 <style>
     .headertext header {
@@ -22,7 +73,7 @@
         margin: 30px auto;
         max-width: 1100px;
         height: auto;
-        padding: 20px 0;
+        padding: 10px 0;
         border: 1px solid #ffffff;
         display: flex;
         flex-direction: column;
@@ -31,10 +82,10 @@
     }
 
     .headertext h1 {
-        font-family: sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: flex;
         align-items: center;
-        margin: 10px 0;
+        margin: 5px 0;
         justify-content: center;
         flex-direction: column;
 
@@ -43,36 +94,67 @@
         font-family: sans-serif;
         display: flex;
         align-items: center;
-        margin: 10px 0;
+        margin: 5px 0;
         justify-content: center;
         flex-direction: column;
 }
 </style>
 
-<div class="image-container" style="text-align: center; margin-top: 20px; margin-bottom: auto;">
+<div class="nameplate">
   <img src="https://raw.githubusercontent.com/jlin193/is270-w26-group5/395433b26cf5864f2f9b775ccf8116dc10be9fad/sp.png" style="width: 100px; position: center;" alt="image a">
   <img src="https://raw.githubusercontent.com/jlin193/is270-w26-group5/395433b26cf5864f2f9b775ccf8116dc10be9fad/jl.png" style="width: 100px; position: center;" alt="image b">
   <img src="https://raw.githubusercontent.com/jlin193/is270-w26-group5/395433b26cf5864f2f9b775ccf8116dc10be9fad/kg.png" style="width: 100px; position: center;" alt="image b">
   <img src="https://raw.githubusercontent.com/jlin193/is270-w26-group5/395433b26cf5864f2f9b775ccf8116dc10be9fad/jp.png" style="width: 100px; position: center;" alt="image b">
-</div> 
-
-<div class="my-shape">
-    <h1>Group Assignment 3: Digital Zine on QR Codes</h1>
-    <p>Uh oh! You just scanned a QR code without knowing where it goes...</p>
-    <p>Lucky for you, it just took you to our website. Read our digital zine below to learn more about QR Codes.</p>
-    <img src="IS270_Zine_1.png" alt="image of slide 1">
-    <img src="IS270_Zine_3.png" alt="image of slide 2">
-    <img src="IS270_Zine_2.png" alt="image of slide 3">
-    <img src="IS270_Zine_4.png" alt="image of slide 4">
-    <img src="IS270_Zine_6.png" alt="image of slide 5">
-    <img src="IS270_Zine_5.png" alt="image of slide 6">
-
-    <p>If the QR Zine images don't load properly, please click the link below to view the full zine on Canva</p>
-     <button>
-      <a href="https://www.canva.com/design/DAHAftNfCP0/3JKUW5gSKOF74dVywf2btQ/edit" style="text-decoration-line: underline; color: #000000;">Canva Link</a>
-  </button>
+  <h2>Sam P, Jean L, Jackie G, and Joy P</h2>
 </div>
 
+<style>
+.nameplate h1 {
+  font-family: sans-serif; 
+  font-size: xx-large;
+  max-width: auto;
+  color: #000000;
+}
+
+.nameplate {
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;    
+  border-radius: 10px;       
+  padding: 10px;            
+  margin: 20px auto;             
+  text-align: center;
+  object-fit: contain;
+ }
+
+.nameplate img {  
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px; 
+  position: relative;
+}
+</style>
+
+
+<div class="my-shape">
+    <h1>WELCOME TO OUR WEBSITE</h1>
+    <p>We are IS270 Group 5, and this is our website for our group assignments! Please navigate through our website by clicking on the buttons above to learn more about the content we have learned.</p>
+</div>
+
+<style>
+.my-shape button{
+  display:inline-block;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: sans-serif; 
+  font-size: larger;
+  padding: 0%;
+  border: none;
+}
+</style>
 
 <body style="background-color: #88ba90;">
 
@@ -107,6 +189,7 @@
   margin: 20px auto;             
   text-align: center;
  }
+
 
 
 
